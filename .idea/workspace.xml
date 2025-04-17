@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cd11325-4881-49d9-a13c-37d9a02946f1" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4cd11325-4881-49d9-a13c-37d9a02946f1" name="변경" comment=":art: 백엔드 api url을 apiURL로 묶어서 선언" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,11 +130,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744887483979</updated>
-      <workItem from="1744887488402" duration="14068000" />
+      <workItem from="1744887488402" duration="14309000" />
     </task>
+    <task id="LOCAL-00001" summary=":wrench: .idea 생성">
+      <option name="closed" value="true" />
+      <created>1744911876338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744911876338</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":art: 백엔드 api url을 apiURL로 묶어서 선언">
+      <option name="closed" value="true" />
+      <created>1744911956966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744911956966</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":wrench: .idea 생성" />
+    <MESSAGE value=":art: 백엔드 api url을 apiURL로 묶어서 선언" />
+    <option name="LAST_COMMIT_MESSAGE" value=":art: 백엔드 api url을 apiURL로 묶어서 선언" />
   </component>
 </project>
