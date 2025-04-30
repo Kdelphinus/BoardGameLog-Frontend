@@ -18,4 +18,11 @@ export const apiURL = {
 		restoreConfirm: `${backendURL}/api/${apiVersion}/users/restore/confirm`,
 		delete: `${backendURL}/api/${apiVersion}/users/delete`,
 	},
+	gameLog: {
+		list: `${backendURL}/api/${apiVersion}/game_logs/list`,
+		my: `${backendURL}/api/${apiVersion}/game_logs/list/my`,
+		create: `${backendURL}/api/${apiVersion}/game_logs/create`,
+		update: `${backendURL}/api/${apiVersion}/game_logs/patch/my`,
+		delete: `${backendURL}/api/${apiVersion}/game_logs/delete/my`,
+	}
 }
