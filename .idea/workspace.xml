@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cd11325-4881-49d9-a13c-37d9a02946f1" name="변경" comment=":wrench: .idea 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/api/auth.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/login/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/login/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/signup/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/signup/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,28 +86,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.이름이 지정되지 않았습니다.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;로그인-회원가입-페이지-만들기&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kdelphinus/BoardGameLog-Frontend/src/routes/signup&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.run dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/kdelphinus/BoardGameLog-Frontend/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.이름이 지정되지 않았습니다.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "로그인-회원가입-페이지-만들기",
+    "last_opened_file_path": "/Users/kdelphinus/BoardGameLog-Frontend/src/routes/signup",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.run dev.executor": "Run",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/Users/kdelphinus/BoardGameLog-Frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/routes/signup" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/posts" />
     </key>
   </component>
   <component name="RunManager">
@@ -140,7 +145,9 @@
       <workItem from="1745488378549" duration="2608000" />
       <workItem from="1745571386744" duration="65000" />
       <workItem from="1745658084230" duration="4947000" />
-      <workItem from="1746005287910" duration="11199000" />
+      <workItem from="1746005287910" duration="11477000" />
+      <workItem from="1746089041865" duration="5869000" />
+      <workItem from="1746116410928" duration="1253000" />
     </task>
     <task id="LOCAL-00001" summary=":wrench: .idea 생성">
       <option name="closed" value="true" />
@@ -174,7 +181,55 @@
       <option name="project" value="LOCAL" />
       <updated>1744912019713</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":sparkles: login, signup 백엔드와 연결">
+      <option name="closed" value="true" />
+      <created>1746034932573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746034932573</updated>
+    </task>
+    <task id="LOCAL-00006" summary=":art: login, signup 동작 분리">
+      <option name="closed" value="true" />
+      <created>1746034947440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746034947440</updated>
+    </task>
+    <task id="LOCAL-00007" summary=":sparkles: 기본 페이지 생성">
+      <option name="closed" value="true" />
+      <created>1746034967073</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746034967073</updated>
+    </task>
+    <task id="LOCAL-00008" summary=":wrench: gameLog api 추가">
+      <option name="closed" value="true" />
+      <created>1746035001827</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746035001827</updated>
+    </task>
+    <task id="LOCAL-00009" summary=":label: type 파일 분리">
+      <option name="closed" value="true" />
+      <created>1746035020942</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746035020942</updated>
+    </task>
+    <task id="LOCAL-00010" summary=":wrench: .idea 수정">
+      <option name="closed" value="true" />
+      <created>1746035038455</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746035038455</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +250,11 @@
     <MESSAGE value=":wrench: .idea 생성" />
     <MESSAGE value=":art: 백엔드 api url을 apiURL로 묶어서 선언" />
     <MESSAGE value=":sparkles: 로그인 및 회원가입 기능 추가" />
+    <MESSAGE value=":sparkles: login, signup 백엔드와 연결" />
+    <MESSAGE value=":art: login, signup 동작 분리" />
+    <MESSAGE value=":sparkles: 기본 페이지 생성" />
+    <MESSAGE value=":wrench: gameLog api 추가" />
+    <MESSAGE value=":label: type 파일 분리" />
     <MESSAGE value=":wrench: .idea 수정" />
     <option name="LAST_COMMIT_MESSAGE" value=":wrench: .idea 수정" />
   </component>
