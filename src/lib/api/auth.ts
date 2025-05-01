@@ -1,13 +1,10 @@
 import { auth } from '$lib/stores/auth';
+import { apiURL } from '$lib/config';
 import type { LoginPayload, SignUpPayload } from '$lib/types';
-
-const BASE_URL = import.meta.env.VITE_BACKEND_URL;
-const API_VERSION = import.meta.env.VITE_API_VERSION;
-const API_ROOT = `${BASE_URL}/api/${API_VERSION}/users`;
 
 export async function login({ username, password }: LoginPayload) {
 	const body = new URLSearchParams({ username, password });
-	const response = await fetch(`${API_ROOT}/login`, {
+	const response = await fetch(apiURL['user']['login'], {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/x-www-form-urlencoded'
@@ -26,13 +23,13 @@ export async function login({ username, password }: LoginPayload) {
 
 export async function signup(payload: SignUpPayload) {
 	const jsonData = {
-		'name': payload.username,
-		'email': payload.email,
-		'password': payload.password,
-		'check_password': payload.confirmPassword
+		name: payload.username,
+		email: payload.email,
+		password: payload.password,
+		check_password: payload.confirmPassword
 	};
 
-	const response = await fetch(`${API_ROOT}/create`, {
+	const response = await fetch(apiURL['user']['signup'], {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'

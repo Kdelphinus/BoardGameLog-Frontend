@@ -20,6 +20,7 @@ export const apiURL = {
 	},
 	gameLog: {
 		list: `${backendURL}/api/${apiVersion}/game_logs/list`,
+		particular: `${backendURL}/api/${apiVersion}/game_logs/list/log`,
 		my: `${backendURL}/api/${apiVersion}/game_logs/list/my`,
 		create: `${backendURL}/api/${apiVersion}/game_logs/create`,
 		update: `${backendURL}/api/${apiVersion}/game_logs/patch/my`,
