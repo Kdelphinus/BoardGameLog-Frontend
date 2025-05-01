@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { auth } from '$lib/stores/auth';
-	import { apiURL } from '$lib/config';
+	import { getLogs } from '$lib/api/logs';
 	import type { Post } from '$lib/types';
 
 	let posts: Post[] = []; // 게시글 목록
@@ -9,8 +9,7 @@
 
 	onMount(async () => {
 		try {
-			const res = await fetch(apiURL['gameLog']['list']);
-			posts = await res.json();
+			posts = await getLogs();
 		} catch (error) {
 			console.error('게시글 불러오기 실패:', error);
 		} finally {
@@ -24,7 +23,7 @@
 </script>
 
 <header class="flex justify-between items-center p-4 border-b">
-	<h1 class="text-2xl font-bold">메인 페이지</h1>
+	<h1 class="text-2xl font-bold">Board Game Logs</h1>
 	<div>
 		{#if $auth.isLoggedIn}
 			<span class="mr-4">{$auth.name}님 환영합니다!</span>
@@ -51,7 +50,9 @@
 		<ul class="space-y-4">
 			{#each posts as post (post.id)}
 				<li class="p-4 border rounded shadow">
-					<h2 class="text-xl font-semibold">{post.subject}</h2>
+					<h2 class="text-xl font-semibold">
+						<a href={`/posts/${post.id}`} class="text-blue-500 hover:underline">{post.subject}</a>
+					</h2>
 					<p class="text-gray-600">{post.content}</p>
 				</li>
 			{/each}
