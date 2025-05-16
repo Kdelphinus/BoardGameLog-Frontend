@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cd11325-4881-49d9-a13c-37d9a02946f1" name="변경" comment="">
+    <list default="true" id="4cd11325-4881-49d9-a13c-37d9a02946f1" name="변경" comment=":sparkles: 로그인하지 않은 사용자의 경우, 로그인 페이지로 리다이렉트 되도록 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/posts/new/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/new/+page.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,7 @@
       <workItem from="1747048244458" duration="3007000" />
       <workItem from="1747135592355" duration="1367000" />
       <workItem from="1747323830510" duration="718000" />
-      <workItem from="1747387931774" duration="6270000" />
+      <workItem from="1747387931774" duration="7026000" />
     </task>
     <task id="LOCAL-00001" summary=":wrench: .idea 생성">
       <option name="closed" value="true" />
@@ -266,7 +265,47 @@
       <option name="project" value="LOCAL" />
       <updated>1746117863947</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=":hammer: markdown 지원을 위해 marked, dompurify 패키지 추가">
+      <option name="closed" value="true" />
+      <created>1747394732029</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394732029</updated>
+    </task>
+    <task id="LOCAL-00016" summary=":wrench: Amazon Q 설정">
+      <option name="closed" value="true" />
+      <created>1747394758222</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394758222</updated>
+    </task>
+    <task id="LOCAL-00017" summary=":label: Game type 추가">
+      <option name="closed" value="true" />
+      <created>1747394773362</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394773362</updated>
+    </task>
+    <task id="LOCAL-00018" summary=":sparkles: 포스트 생성 동작 추가">
+      <option name="closed" value="true" />
+      <created>1747394806808</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394806808</updated>
+    </task>
+    <task id="LOCAL-00019" summary=":sparkles: 로그인하지 않은 사용자의 경우, 로그인 페이지로 리다이렉트 되도록 구현">
+      <option name="closed" value="true" />
+      <created>1747394839451</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394839451</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +335,11 @@
     <MESSAGE value=":recycle: config 파일 사용하도록 수정" />
     <MESSAGE value=":sparkles: log 상세 페이지 단순 구현" />
     <MESSAGE value=":wrench: .idea 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value=":wrench: .idea 수정" />
+    <MESSAGE value=":hammer: markdown 지원을 위해 marked, dompurify 패키지 추가" />
+    <MESSAGE value=":wrench: Amazon Q 설정" />
+    <MESSAGE value=":label: Game type 추가" />
+    <MESSAGE value=":sparkles: 포스트 생성 동작 추가" />
+    <MESSAGE value=":sparkles: 로그인하지 않은 사용자의 경우, 로그인 페이지로 리다이렉트 되도록 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: 로그인하지 않은 사용자의 경우, 로그인 페이지로 리다이렉트 되도록 구현" />
   </component>
 </project>
