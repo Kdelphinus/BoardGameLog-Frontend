@@ -42,6 +42,17 @@
 </header>
 
 <main class="p-4">
+	{#if $auth.isLoggedIn}
+		<div class="mb-4">
+			<a
+				href="/posts/new"
+				class="inline-block px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
+			>
+				새 글 작성
+			</a>
+		</div>
+	{/if}
+
 	{#if isLoading}
 		<p>게시글을 불러오는 중...</p>
 	{:else if posts.length === 0}
@@ -59,4 +70,5 @@
 		</ul>
 	{/if}
 </main>
+
 

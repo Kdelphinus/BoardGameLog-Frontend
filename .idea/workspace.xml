@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cd11325-4881-49d9-a13c-37d9a02946f1" name="변경" comment=":wrench: .idea 수정" />
+    <list default="true" id="4cd11325-4881-49d9-a13c-37d9a02946f1" name="변경" comment=":sparkles: 로그인하지 않은 사용자의 경우, 로그인 페이지로 리다이렉트 되도록 구현">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/posts/new/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/new/+page.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,8 +46,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="로그인-회원가입-페이지-만들기" />
-                    <option name="lastUsedInstant" value="1744887936" />
+                    <option name="branchName" value="게시글-생성-및-댓글-기능-추가" />
+                    <option name="lastUsedInstant" value="1746190998" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="develop" />
@@ -87,7 +91,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;로그인-회원가입-페이지-만들기&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;게시글-생성-및-댓글-기능-추가&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/kdelphinus/BoardGameLog-Frontend/src/routes/signup&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -96,7 +100,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.run dev.executor&quot;: &quot;Run&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;aws.codewhisperer&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/kdelphinus/BoardGameLog-Frontend/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -124,7 +128,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
       </set>
     </attachedChunks>
   </component>
@@ -142,6 +146,12 @@
       <workItem from="1746005287910" duration="11477000" />
       <workItem from="1746089041865" duration="5869000" />
       <workItem from="1746116410928" duration="1456000" />
+      <workItem from="1746696274909" duration="3375000" />
+      <workItem from="1746773499247" duration="1293000" />
+      <workItem from="1747048244458" duration="3007000" />
+      <workItem from="1747135592355" duration="1367000" />
+      <workItem from="1747323830510" duration="718000" />
+      <workItem from="1747387931774" duration="7026000" />
     </task>
     <task id="LOCAL-00001" summary=":wrench: .idea 생성">
       <option name="closed" value="true" />
@@ -255,7 +265,47 @@
       <option name="project" value="LOCAL" />
       <updated>1746117863947</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=":hammer: markdown 지원을 위해 marked, dompurify 패키지 추가">
+      <option name="closed" value="true" />
+      <created>1747394732029</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394732029</updated>
+    </task>
+    <task id="LOCAL-00016" summary=":wrench: Amazon Q 설정">
+      <option name="closed" value="true" />
+      <created>1747394758222</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394758222</updated>
+    </task>
+    <task id="LOCAL-00017" summary=":label: Game type 추가">
+      <option name="closed" value="true" />
+      <created>1747394773362</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394773362</updated>
+    </task>
+    <task id="LOCAL-00018" summary=":sparkles: 포스트 생성 동작 추가">
+      <option name="closed" value="true" />
+      <created>1747394806808</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394806808</updated>
+    </task>
+    <task id="LOCAL-00019" summary=":sparkles: 로그인하지 않은 사용자의 경우, 로그인 페이지로 리다이렉트 되도록 구현">
+      <option name="closed" value="true" />
+      <created>1747394839451</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394839451</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +335,11 @@
     <MESSAGE value=":recycle: config 파일 사용하도록 수정" />
     <MESSAGE value=":sparkles: log 상세 페이지 단순 구현" />
     <MESSAGE value=":wrench: .idea 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value=":wrench: .idea 수정" />
+    <MESSAGE value=":hammer: markdown 지원을 위해 marked, dompurify 패키지 추가" />
+    <MESSAGE value=":wrench: Amazon Q 설정" />
+    <MESSAGE value=":label: Game type 추가" />
+    <MESSAGE value=":sparkles: 포스트 생성 동작 추가" />
+    <MESSAGE value=":sparkles: 로그인하지 않은 사용자의 경우, 로그인 페이지로 리다이렉트 되도록 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value=":sparkles: 로그인하지 않은 사용자의 경우, 로그인 페이지로 리다이렉트 되도록 구현" />
   </component>
 </project>
