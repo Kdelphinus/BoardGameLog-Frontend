@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4cd11325-4881-49d9-a13c-37d9a02946f1" name="변경" comment=":wrench: .idea 수정" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AuthForm" />
+        <option value="+page" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kdelphinus&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="로그인-회원가입-페이지-만들기" />
+                    <option name="lastUsedInstant" value="1744887936" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1744887674" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1744887670" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kdelphinus/BoardGameLog-Frontend.git&quot;,
+    &quot;accountId&quot;: &quot;e37bec06-ffd7-4016-a76f-3fdcd32054a1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2vqzdrShchd30MMsMdeMipiQq0y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.이름이 지정되지 않았습니다.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;로그인-회원가입-페이지-만들기&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kdelphinus/BoardGameLog-Frontend/src/routes/signup&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.run dev.executor&quot;: &quot;Run&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/kdelphinus/BoardGameLog-Frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/signup" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/posts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="4cd11325-4881-49d9-a13c-37d9a02946f1" name="변경" comment="" />
+      <created>1744887483979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744887483979</updated>
+      <workItem from="1744887488402" duration="14359000" />
+      <workItem from="1745488378549" duration="2608000" />
+      <workItem from="1745571386744" duration="65000" />
+      <workItem from="1745658084230" duration="4947000" />
+      <workItem from="1746005287910" duration="11477000" />
+      <workItem from="1746089041865" duration="5869000" />
+      <workItem from="1746116410928" duration="1456000" />
+    </task>
+    <task id="LOCAL-00001" summary=":wrench: .idea 생성">
+      <option name="closed" value="true" />
+      <created>1744911876338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744911876338</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":art: 백엔드 api url을 apiURL로 묶어서 선언">
+      <option name="closed" value="true" />
+      <created>1744911956966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744911956966</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":sparkles: 로그인 및 회원가입 기능 추가">
+      <option name="closed" value="true" />
+      <created>1744912004227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744912004227</updated>
+    </task>
+    <task id="LOCAL-00004" summary=":wrench: .idea 수정">
+      <option name="closed" value="true" />
+      <created>1744912019713</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744912019713</updated>
+    </task>
+    <task id="LOCAL-00005" summary=":sparkles: login, signup 백엔드와 연결">
+      <option name="closed" value="true" />
+      <created>1746034932573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746034932573</updated>
+    </task>
+    <task id="LOCAL-00006" summary=":art: login, signup 동작 분리">
+      <option name="closed" value="true" />
+      <created>1746034947440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746034947440</updated>
+    </task>
+    <task id="LOCAL-00007" summary=":sparkles: 기본 페이지 생성">
+      <option name="closed" value="true" />
+      <created>1746034967073</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746034967073</updated>
+    </task>
+    <task id="LOCAL-00008" summary=":wrench: gameLog api 추가">
+      <option name="closed" value="true" />
+      <created>1746035001827</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746035001827</updated>
+    </task>
+    <task id="LOCAL-00009" summary=":label: type 파일 분리">
+      <option name="closed" value="true" />
+      <created>1746035020942</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746035020942</updated>
+    </task>
+    <task id="LOCAL-00010" summary=":wrench: .idea 수정">
+      <option name="closed" value="true" />
+      <created>1746035038455</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746035038455</updated>
+    </task>
+    <task id="LOCAL-00011" summary=":art: log api 요청 동작을 분리">
+      <option name="closed" value="true" />
+      <created>1746117794881</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746117794882</updated>
+    </task>
+    <task id="LOCAL-00012" summary=":recycle: config 파일 사용하도록 수정">
+      <option name="closed" value="true" />
+      <created>1746117837247</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746117837247</updated>
+    </task>
+    <task id="LOCAL-00013" summary=":sparkles: log 상세 페이지 단순 구현">
+      <option name="closed" value="true" />
+      <created>1746117854543</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746117854543</updated>
+    </task>
+    <task id="LOCAL-00014" summary=":wrench: .idea 수정">
+      <option name="closed" value="true" />
+      <created>1746117863947</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746117863947</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":wrench: .idea 생성" />
+    <MESSAGE value=":art: 백엔드 api url을 apiURL로 묶어서 선언" />
+    <MESSAGE value=":sparkles: 로그인 및 회원가입 기능 추가" />
+    <MESSAGE value=":sparkles: login, signup 백엔드와 연결" />
+    <MESSAGE value=":art: login, signup 동작 분리" />
+    <MESSAGE value=":sparkles: 기본 페이지 생성" />
+    <MESSAGE value=":wrench: gameLog api 추가" />
+    <MESSAGE value=":label: type 파일 분리" />
+    <MESSAGE value=":art: log api 요청 동작을 분리" />
+    <MESSAGE value=":recycle: config 파일 사용하도록 수정" />
+    <MESSAGE value=":sparkles: log 상세 페이지 단순 구현" />
+    <MESSAGE value=":wrench: .idea 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value=":wrench: .idea 수정" />
+  </component>
+</project>
